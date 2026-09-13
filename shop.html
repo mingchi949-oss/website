@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOP ~ Find Your Signature Scent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./Style/styles.css" />
+    <link rel="stylesheet" href="./Style/shop.css" />
+    <link rel="stylesheet" href="./Style/index.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <div class="top">UPPER</div>
+        <div class="bottom">CRUST</div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" title="Home"><i class="bi bi-house-fill"></i></a>
+        <a href="shop.html" title="Shop"><i class="bi bi-bag-fill"></i></a>
+        <a href="about.html" title="About"><i class="bi bi-info-circle-fill"></i></a>
+        <a href="contact.html" title="Contact"><i class="bi bi-geo-alt-fill"></i></a>
+      </nav>
+      <div class="icon">
+        <a class="search" href="#"><i class="bi bi-search"></i></a>
+        <div class="user-menu-container">
+            <a href="#" class="user-acc"><i class="bi bi-person"></i></a>
+            <div class="user-dropdown">
+                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i> Facebook</a>
+                <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
+                <a href="https://www.tiktok.com" target="_blank"><i class="bi bi-tiktok"></i> TikTok</a>
+            </div>
+        </div>
+        <a href="" class="cart">
+          <i class="bi bi-bag"></i>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search perfumes...">
+        <button id="searchBtn"><i class="bi bi-search"></i></button>
+      </div>
+    </header>
+
+    <div class="shop-container">
+      <p class="move">
+        <a href="index.html">Home</a><span class="next">›</span><span class="current">Shop</span>
+      </p>
+      <h1 class="page-title">Shop</h1>
+
+      <div class="shop-layout">
+        <div class="shop-main">
+            <div class="shop-tool">
+                <span class="sort">Sort by:
+                    <select>
+                        <option>Featured</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Newest</option>
+                    </select>
+                </span>
+                <span class="show">Show:
+                    <select>
+                        <option>12</option>
+                        <option>24</option>
+                        <option>48</option>
+                    </select>
+                </span>
+            </div>
+
+            <div class="shop-grid">
+                <div class="product-card" data-category="all winter summer">
+                    <div class="product-img">
+                        <img src="./assets/images/creed Aventus Cologne.webp" alt="">
+                        <button class="quick-view-btn"><i class="bi bi-eye"></i> Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Creed Aventus Cologne</h3>
+                        <div class="stars" data-product="creed-aventus">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                            <span class="rating-text">(4.8)</span>
+                        </div>
+                        <div class="price">$269.99</div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="all summer">
+                    <div class="product-img">
+                        <img src="./assets/images/GIO Giorgio Armani.webp" alt="">
+                        <button class="quick-view-btn"><i class="bi bi-eye"></i> Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>GIO Giorgio Armani</h3>
+                        <div class="stars" data-product="gio-armani">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                            <span class="rating-text">(4.6)</span>
+                        </div>
+                        <div class="price">$259.99</div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="all summer">
+                    <div class="product-img">
+                        <img src="./assets/images/Hermes H24 EDT.webp" alt="">
+                        <button class="quick-view-btn"><i class="bi bi-eye"></i> Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Harmes H24 EDT</h3>
+                        <div class="stars" data-product="hermes-h24">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                            <span class="rating-text">(4.7)</span>
+                        </div>
+                        <div class="price">$249.99</div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="all winter">
+                    <div class="product-img">
+                        <img src="./assets/images/JPG Le Male Le Parfum.png" alt="">
+                        <button class="quick-view-btn"><i class="bi bi-eye"></i> Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>JPG Le Male Le Parfum</h3>
+                        <div class="stars" data-product="jpg-le-male">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                            <span class="rating-text">(4.9)</span>
+                        </div>
+                        <div class="price">$239.99</div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="all winter">
+                    <div class="product-img">
+                        <img src="./assets/images/Stronger With You Absolutely.webp" alt="">
+                        <button class="quick-view-btn"><i class="bi bi-eye"></i> Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Stronger With You Absolutely</h3>
+                        <div class="stars" data-product="stronger-with-you">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                            <span class="rating-text">(4.5)</span>
+                        </div>
+                        <div class="price">$229.99</div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="all summer">
+                    <div class="product-img">
+                        <img src="./assets/images/Versace Pour Homme.webp" alt="">
+                        <button class="quick-view-btn"><i class="bi bi-eye"></i> Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Versace Pour Homme </h3>
+                        <div class="stars" data-product="versace-pour-homme">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                            <span class="rating-text">(4.7)</span>
+                        </div>
+                        <div class="price">$219.99</div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="all winter summer">
+                    <div class="product-img">
+                        <img src="./assets/images/Saugave Elixir.avif" alt="">
+                        <button class="quick-view-btn"><i class="bi bi-eye"></i> Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Dior Sauvage Elixir</h3>
+                        <div class="stars" data-product="dior-sauvage">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                            <span class="rating-text">(4.8)</span>
+                        </div>
+                        <div class="price">$209.99</div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="all summer">
+                    <div class="product-img">
+                        <img src="./assets/images/LV Imagination.webp" alt="">
+                        <button class="quick-view-btn"><i class="bi bi-eye"></i> Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>LV Imagination</h3>
+                        <div class="stars" data-product="lv-imagination">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                            <span class="rating-text">(4.6)</span>
+                        </div>
+                        <div class="price">$349.99</div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="all winter">
+                    <div class="product-img">
+                        <img src="./assets/images/La Male Elixir Parfum.webp" alt="">
+                        <button class="quick-view-btn"><i class="bi bi-eye"></i> Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>La Male Elixir Parfum</h3>
+                        <div class="stars" data-product="la-male-elixir">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                            <span class="rating-text">(4.4)</span>
+                        </div>
+                        <div class="price">$189.99</div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="all winter summer">
+                    <div class="product-img">
+                        <img src="./assets/images/Valentino Eau de Parfum.webp" alt="">
+                        <button class="quick-view-btn"><i class="bi bi-eye"></i> Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Valentino Eau de Parfum</h3>
+                        <div class="stars" data-product="valentino-edp">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                            <span class="rating-text">(4.5)</span>
+                        </div>
+                        <div class="price">$125.99</div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="all summer">
+                    <div class="product-img">
+                        <img src="./assets/images/Versace DylanBlue.webp" alt="">
+                        <button class="quick-view-btn"><i class="bi bi-eye"></i> Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Versace Dylan Blue</h3>
+                        <div class="stars" data-product="versace-dylan">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                            <span class="rating-text">(4.3)</span>
+                        </div>
+                        <div class="price">$70.99</div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="all winter">
+                    <div class="product-img">
+                        <img src="./assets/images/Versace Eros Najim Parfum.webp" alt="">
+                        <button class="quick-view-btn"><i class="bi bi-eye"></i> Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Versace Eros Najim Parfum</h3>
+                        <div class="stars" data-product="versace-eros">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                            <span class="rating-text">(4.6)</span>
+                        </div>
+                        <div class="price">$99.99</div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="feature">
+          <i class="bi bi-truck" width="26" height="26"></i>
+          Free Shipping <br />
+          On all orders over $59.99
+        </div>
+        <div class="feature">
+          <i class="bi bi-credit-card-fill" width="26" height="26"></i>
+          Secure Payment <br />
+          100% Secure Checkout
+        </div>
+        <div class="feature">
+          <i class="bi bi-check-lg" width="26" height="26"></i>
+          Luxury Packaging <br />
+          Premium Gift Wrapping
+        </div>
+        <div class="feature">
+          <i class="bi bi-clock" width="26" height="26"></i>
+          Easy Returns <br />
+          30-day Returns
+        </div>
+      </div>
+    </footer>
+    <nav class="bottom-nav">
+        <a href="index.html" title="Home"><i class="bi bi-house-fill"></i><span>Home</span></a>
+        <a href="shop.html" class="active" title="Shop"><i class="bi bi-bag-fill"></i><span>Shop</span></a>
+        <a href="about.html" title="About"><i class="bi bi-info-circle-fill"></i><span>About</span></a>
+        <a href="contact.html" title="Contact"><i class="bi bi-geo-alt-fill"></i><span>Contact</span></a>
+    </nav>
+    <script src="./javascript/main.js"></script>
+    <script src="./javascript/shop.js"></script>
+  </body>
+</html>
