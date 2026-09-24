@@ -137,6 +137,14 @@
     background: linear-gradient(to bottom, transparent, rgba(168, 130, 61, 0.03));
 }
 
+.stats-bar > .container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
 .stats-bar::before {
     content: '';
     position: absolute;
@@ -603,6 +611,10 @@
 
 @media (max-width: 768px) {
     .about-container {
+        padding: 0 20px;
+    }
+
+    .stats-bar > .container {
         padding: 0 20px;
     }
 
